@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  skin_color: MyString
+  size: 1
+  health: 1
+
+two:
+  name: MyString
+  skin_color: MyString
+  size: 1
+  health: 1
