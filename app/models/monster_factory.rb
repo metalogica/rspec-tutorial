@@ -4,7 +4,7 @@ class MonsterFactory < ApplicationRecord
       name: name,
       skin_color: skin_color,
       size: size,
-      health: 5
+      health: health
     })
   end
 end
