@@ -22,6 +22,10 @@ RSpec.configure do |config|
   # Selectively include test helpers
   config.include MonsterHelpers, helper: :monster
 
+  # You can run a global before, after & around hooks
+  config.before(:each) { puts "The before hook worked!" }
+  config.after(:each) { puts "The after hook worked!" }
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.

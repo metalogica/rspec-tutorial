@@ -9,7 +9,6 @@ module MonsterFactoryCustomMatchers
 
     failure_message do |actual_monster|
       "expected that #{actual_monster} would have all the attributes as the #{expected_monster}.\n
-      Attributes: \n
       ACTUAL | EXPECTED \n
       #{actual_monster.name}|#{expected_monster.name}
       #{actual_monster.skin_color}|#{expected_monster.skin_color}
